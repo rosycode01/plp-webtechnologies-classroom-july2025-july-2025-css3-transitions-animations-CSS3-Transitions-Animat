@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BrightSmile Dental Clinic</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header class="header">
+      <div class="container">
+        <div class="logo">
+          <i class="fas fa-tooth"></i>
+          <span>BrightSmile Dental</span>
+        </div>
+        <nav class="nav">
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#dentists">Our Dentists</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <button class="menu-toggle" id="menuToggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+      <div class="container">
+        <div class="hero-content">
+          <h1>Your Smile is Our Priority</h1>
+          <p>
+            Experience the best dental care with our state-of-the-art technology
+            and compassionate team of professionals.
+          </p>
+          <div class="hero-buttons">
+            <button class="btn btn-primary" id="bookAppointmentBtn">
+              Book an Appointment
+            </button>
+            <button class="btn btn-secondary" id="learnMoreBtn">
+              Learn More
+            </button>
+          </div>
+        </div>
+        <div class="hero-image">
+          <div class="image-placeholder">
+            <i class="fas fa-smile"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+      <div class="container">
+        <h2>Our Services</h2>
+        <div class="services-grid">
+          <div class="service-card">
+            <div class="service-icon">
+              <i class="fas fa-tooth"></i>
+            </div>
+            <h3>General Dentistry</h3>
+            <p>
+              Regular checkups, cleanings, and preventive care to maintain your
+              oral health.
+            </p>
+            <button class="btn-service">Learn More</button>
+          </div>
+          <div class="service-card">
+            <div class="service-icon">
+              <i class="fas fa-teeth"></i>
+            </div>
+            <h3>Cosmetic Dentistry</h3>
+            <p>
+              Teeth whitening, veneers, and other treatments to enhance your
+              smile.
+            </p>
+            <button class="btn-service">Learn More</button>
+          </div>
+          <div class="service-card">
+            <div class="service-icon">
+              <i class="fas fa-teeth-open"></i>
+            </div>
+            <h3>Orthodontics</h3>
+            <p>
+              Braces and aligners to straighten teeth and correct bite issues.
+            </p>
+            <button class="btn-service">Learn More</button>
+          </div>
+          <div class="service-card">
+            <div class="service-icon">
+              <i class="fas fa-tooth"></i>
+            </div>
+            <h3>Oral Surgery</h3>
+            <p>
+              Tooth extractions, dental implants, and other surgical procedures.
+            </p>
+            <button class="btn-service">Learn More</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Dentists Section -->
+    <section class="dentists" id="dentists">
+      <div class="container">
+        <h2>Our Dental Team</h2>
+        <div class="dentist-carousel">
+          <div class="dentist-card">
+            <div class="dentist-image">
+              <img
+                src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=80"
+                alt="Dr. Sarah Johnson"
+              />
+            </div>
+            <h3>Dr. Sarah Johnson</h3>
+            <p class="specialty">General Dentistry</p>
+            <p>
+              With over 15 years of experience, Dr. Johnson specializes in
+              preventive care and patient education.
+            </p>
+          </div>
+          <div class="dentist-card">
+            <div class="dentist-image">
+              <img
+                src="https://images.unsplash.com/photo-1594824476967-48c8b964273f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=80"
+                alt="Dr. Michael Chen"
+              />
+            </div>
+            <h3>Dr. Michael Chen</h3>
+            <p class="specialty">Orthodontics</p>
+            <p>
+              Dr. Chen is passionate about creating beautiful smiles through
+              advanced orthodontic techniques.
+            </p>
+          </div>
+          <div class="dentist-card">
+            <div class="dentist-image">
+              <img
+                src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=80"
+                alt="Dr. Emily Rodriguez"
+              />
+            </div>
+            <h3>Dr. Emily Rodriguez</h3>
+            <p class="specialty">Cosmetic Dentistry</p>
+            <p>
+              Dr. Rodriguez combines artistry with dental expertise to give
+              patients the smile of their dreams.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials" id="testimonials">
+      <div class="container">
+        <h2>What Our Patients Say</h2>
+        <div class="testimonial-container">
+          <div class="testimonial active">
+            <p>
+              "I've never felt more comfortable at a dental office. The staff is
+              wonderful and Dr. Johnson is amazing!"
+            </p>
+            <div class="patient">
+              <strong>Maria Rodriguez</strong>
+              <span>Patient since 2018</span>
+            </div>
+          </div>
+          <div class="testimonial">
+            <p>
+              "The entire team at BrightSmile makes going to the dentist a
+              pleasant experience. Highly recommend!"
+            </p>
+            <div class="patient">
+              <strong>James Wilson</strong>
+              <span>Patient since 2020</span>
+            </div>
+          </div>
+          <div class="testimonial">
+            <p>
+              "I finally have the smile I've always wanted thanks to Dr. Chen.
+              The Invisalign process was smooth and painless."
+            </p>
+            <div class="patient">
+              <strong>Sophia Kim</strong>
+              <span>Patient since 2019</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-controls">
+          <button class="control-btn" id="prevTestimonial">
+            <i class="fas fa-chevron-left"></i>
+          </button>
+          <button class="control-btn" id="nextTestimonial">
+            <i class="fas fa-chevron-right"></i>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Appointment Form Section -->
+    <section class="appointment" id="contact">
+      <div class="container">
+        <h2>Book Your Appointment</h2>
+        <form class="appointment-form" id="appointmentForm">
+          <div class="form-group">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone" required />
+          </div>
+          <div class="form-group">
+            <label for="service">Service Needed</label>
+            <select id="service" name="service" required>
+              <option value="">Select a service</option>
+              <option value="cleaning">Dental Cleaning</option>
+              <option value="whitening">Teeth Whitening</option>
+              <option value="filling">Filling</option>
+              <option value="crown">Crown</option>
+              <option value="ortho">Orthodontics</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="date">Preferred Date</label>
+            <input type="date" id="date" name="date" required />
+          </div>
+          <div class="form-group">
+            <label for="message">Additional Notes</label>
+            <textarea id="message" name="message" rows="4"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">
+            Submit Appointment Request
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-section">
+            <h3>BrightSmile Dental</h3>
+            <p>
+              Providing quality dental care with a gentle touch for the whole
+              family.
+            </p>
+          </div>
+          <div class="footer-section">
+            <h4>Contact Info</h4>
+            <p><i class="fas fa-map-marker-alt"></i> Nakuru,Kenya</p>
+            <p><i class="fas fa-phone"></i> +254723905619</p>
+            <p><i class="fas fa-envelope"></i> info@brightsmile.com</p>
+          </div>
+          <div class="footer-section">
+            <h4>Hours</h4>
+            <p>Monday-Friday: 8am-6pm</p>
+            <p>Saturday: 9am-2pm</p>
+            <p>Sunday: Closed</p>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2025 BrightSmile Dental Clinic. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Appointment Modal -->
+    <div class="modal" id="appointmentModal">
+      <div class="modal-content">
+        <span class="close" id="closeModal">&times;</span>
+        <h2>Appointment Request Received</h2>
+        <p>
+          Thank you for requesting an appointment with BrightSmile Dental. We
+          will contact you within 24 hours to confirm your appointment time.
+        </p>
+        <button class="btn btn-primary" id="modalCloseBtn">Close</button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
